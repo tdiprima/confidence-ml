@@ -1,8 +1,15 @@
+"""
+We generate fake data where:
+higher income + lower debt → "approved" loan
+
+Then train logistic regression and evaluate.
+"""
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
+# Random Number Generator
 rng = np.random.default_rng(seed=42)
 
 n = 200

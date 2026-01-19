@@ -25,14 +25,12 @@ sleep_hours = rng.normal(7, 1.2, size=n).clip(3, 11)
 health_score = (minutes_exercised * 0.05) + (sleep_hours * 1.5) - (age * 0.03)
 healthy = (health_score > 10).astype(int)
 
-df = pd.DataFrame(
-    {
-        "age": age,
-        "minutes_exercised": minutes_exercised,
-        "sleep_hours": sleep_hours,
-        "healthy": healthy,
-    }
-)
+df = pd.DataFrame({
+    "age": age,
+    "minutes_exercised": minutes_exercised,
+    "sleep_hours": sleep_hours,
+    "healthy": healthy
+})
 
 # Save dataset so it's inspectable
 df.to_csv("data/health.csv", index=False)

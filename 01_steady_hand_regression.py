@@ -1,3 +1,9 @@
+"""
+We generate fake data where:
+more hours studied → higher exam score
+
+Then we fit linear regression and print results.
+"""
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
