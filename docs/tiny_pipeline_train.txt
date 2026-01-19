@@ -1,0 +1,3 @@
+=== Tiny Pipeline Training ===
+Test accuracy: 1.000
+Saved model to models/health_pipeline.joblib
