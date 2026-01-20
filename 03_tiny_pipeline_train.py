@@ -18,7 +18,9 @@ rng = np.random.default_rng(seed=42)
 # 1) Generate dataset
 n = 300
 age = rng.integers(18, 70, size=n)
+# Generate n random numbers centered around 30, with typical spread 15, and then force all values to stay between 0 and 120.
 minutes_exercised = rng.normal(30, 15, size=n).clip(0, 120)
+# Generate n sleep-hour values around 7h (std 1.2), clamped to 3–11 hours
 sleep_hours = rng.normal(7, 1.2, size=n).clip(3, 11)
 
 # "Healthy" label rule: exercise + sleep good, age slightly harder
@@ -31,6 +33,7 @@ df = pd.DataFrame({
     "sleep_hours": sleep_hours,
     "healthy": healthy
 })
+print(df.head(10))
 
 # Save dataset so it's inspectable
 df.to_csv("data/health.csv", index=False)

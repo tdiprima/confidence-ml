@@ -18,7 +18,7 @@ Dataframe:
 3  6.973680  82.220698
 4  0.941773  53.256652
 
-=== Steady Hand Regression ===
+=== Exam Score Regression ===
 Intercept (base score): 48.56
 Slope (points per hour): 5.19
 Mean Absolute Error: 2.93

@@ -49,7 +49,7 @@ pred = model.predict(X)
 # 8) Evaluate
 mae = mean_absolute_error(y, pred)
 
-print("=== Steady Hand Regression ===")
+print("=== Exam Score Regression ===")
 print(f"Intercept (base score): {model.intercept_:.2f}")
 print(f"Slope (points per hour): {model.coef_[0]:.2f}")
 print(f"Mean Absolute Error: {mae:.2f}")

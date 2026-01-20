@@ -51,8 +51,6 @@ means:
 
 ✅ Model is basically screaming: **"this person is NOT healthy"**
 
----
-
 ### What is `e-04` ??
 
 That's scientific notation.
@@ -64,8 +62,6 @@ Example:
 
 So it's just a tiny number written compactly.
 
----
-
 ### Why probabilities come in pairs
 
 Because it's a **binary classifier**.
@@ -75,8 +71,6 @@ It always reports both:
 * probability of class 1
 
 and they should add up to ~1.
-
----
 
 ### Why are the probabilities so extreme (almost 0 or 1)?
 
