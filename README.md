@@ -6,7 +6,7 @@ These scripts intentionally use small synthetic datasets and simple models so I 
 
 ## Projects
 
-### 1) Regression — `01_steady_hand_regression.py`
+### 1) Regression — `01_exam_score_regression.py`
 Predicts a continuous value (exam score) from a single feature (hours studied).
 
 ### 2) Classification — `02_yes_no_classification.py`
