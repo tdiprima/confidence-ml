@@ -1,6 +1,6 @@
-### `rng` = Random Number Generator
+`02_yes_no_classification.py`
 
-In your `02_yes_no_classification.py` you probably have something like:
+### `rng` = Random Number Generator
 
 ```python
 rng = np.random.default_rng(seed=42)
@@ -16,8 +16,6 @@ debt = rng.normal(15000, 7000, size=n)
 ```
 
 So `rng` is the thing that *produces* the random data.
-
----
 
 ## Why not just use `np.random.normal(...)`?
 
@@ -35,15 +33,11 @@ Meaning:
 
 That's HUGE for ML experiments.
 
----
-
 ### ✅ 2) It's "local" randomness
 
 Everything random comes from `rng`, not from some global shared random state.
 
 So it's easier to reason about and debug.
-
----
 
 ## What does `seed` mean?
 
@@ -52,8 +46,6 @@ Think of seed like: *the starting point for randomness.*
 Same seed → same "random" sequence.
 
 Different seed → different fake dataset.
-
----
 
 ## TL;DR
 

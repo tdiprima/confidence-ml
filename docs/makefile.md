@@ -1,6 +1,6 @@
-## 1) `Makefile` (in repo root)
+`Makefile`
 
-## 2) How to run it (copy/paste commands)
+## How to run it
 
 ### First-time setup
 
