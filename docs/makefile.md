@@ -5,7 +5,7 @@
 ### First-time setup
 
 ```bash
-make venv
+make .venv
 make install
 ```
 
