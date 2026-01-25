@@ -1,4 +1,4 @@
-# confidence-ml
+# Gradient Hammer 🔨 
 
 Tiny, explainable ML projects built for *understanding*, not virality.
 
