@@ -24,7 +24,7 @@ for i in range(len(counts)):
     left = edges[i]
     right = edges[i + 1]
     bar = "█" * counts[i]
-    print(f"{left:>4.1f}–{right:>4.1f}: {bar} ({counts[i]})")
+    print(f"{left:>4.1f}-{right:>4.1f}: {bar} ({counts[i]})")
 
 # 3) Create exam scores with noise
 # For each student, add a random wiggle to their score.
